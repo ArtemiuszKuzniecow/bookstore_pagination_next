@@ -1,0 +1,17 @@
+.red_badge {
+  border: 2px solid rgb(155, 98, 98);
+  background-color: rgb(252, 93, 93);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.blue_badge {
+  border: 2px solid rgb(98, 129, 155);
+  background-color: rgb(93, 149, 252);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}

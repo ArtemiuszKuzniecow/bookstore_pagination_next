@@ -1,0 +1,27 @@
+.button {
+  padding: 10px;
+  font-size: larger;
+  border-color: aliceblue;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.button_default {
+  background-color: var(--default_color);
+}
+.button_danger {
+  background-color: var(--danger_color);
+}
+.button_success {
+  background-color: var(--success_color);
+}
+.button_default:hover {
+  background-color: #7aade4;
+}
+.button_danger:hover {
+  background-color: #df6f7a;
+}
+.button_success:hover {
+  background-color: #91dda2;
+}

@@ -1,0 +1,6 @@
+.buttons_container {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  margin: 10px;
+}
