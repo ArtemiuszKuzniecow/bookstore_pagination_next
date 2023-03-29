@@ -13,11 +13,11 @@ const BookSingle = ({ book }: Props) => {
         <div className={style.badges_place}>
           {book.author === "Филип К. Дик" ? (
             <Badge color="blue">
-              <h3>Лучшие продажи!</h3>
+              <h3>TOP</h3>
             </Badge>
           ) : (
             <Badge color="red">
-              <h3>Выгодная цена!</h3>
+              <h3>NEW</h3>
             </Badge>
           )}
         </div>
